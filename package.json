@@ -1,5 +1,5 @@
 {
-    "name"          : "MiLight_V6",
+    "name"          : "milight_v6",
     "version"       : "0.0.2",
     "description"   : "A library to control the MiLight family (LimitlessLed etc) of light globes on v6 bridges.  ",
     "license": "Apache-2.0",
