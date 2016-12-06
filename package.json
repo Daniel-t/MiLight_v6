@@ -1,6 +1,6 @@
 {
   "name": "milight_v6",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library to control the MiLight family (LimitlessLed etc) of light globes on v6 bridges.  ",
   "license": "GPL-3.0",
   "keywords": [
