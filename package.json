@@ -1,18 +1,25 @@
 {
-    "name"          : "milight_v6",
-    "version"       : "0.0.2",
-    "description"   : "A library to control the MiLight family (LimitlessLed etc) of light globes on v6 bridges.  ",
-    "license": "Apache-2.0",
-    "keywords": [ "node-red", "milight", "LimitlessLed"],
-  "dependencies": {
-  },
+  "name": "milight_v6",
+  "version": "0.0.2",
+  "description": "A library to control the MiLight family (LimitlessLed etc) of light globes on v6 bridges.  ",
+  "license": "GPL-3.0",
+  "keywords": [
+    "node-red",
+    "milight",
+    "LimitlessLed"
+  ],
+  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Daniel-t/MiLight_v6.git"
+    "url": "git+https://github.com/Daniel-t/MiLight_v6.git"
   },
-    "author": {
-        "name": "Daniel Thomas",
-        "email": "daniel@networklighthouse.com",
-        "url": "https://github.com/Daniel-t"
-    }
+  "author": "Daniel Thomas <daniel@networklighthouse.com> (https://github.com/Daniel-t)",
+  "bugs": {
+    "url": "https://github.com/Daniel-t/MiLight_v6/issues"
+  },
+  "homepage": "https://github.com/Daniel-t/MiLight_v6#readme",
+  "main": "milight.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
