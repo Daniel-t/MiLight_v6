@@ -4,7 +4,7 @@ This is a library for controlling MiLight/LimitlessLed/AppLamp/etc lights connec
 
 ## Usage
 
-
+~~~
 var mb=require('./milight.js');
 
 mb.initiate(BRIDGE_IP,BRIDGE_PORT);
@@ -26,23 +26,23 @@ mb.sendCmd(z1.colorSet(0x20));
 //Method 2
 z1.command("on")
 z1.command("colorSet",0x20)
-
+~~~
 
 ## Commands
 
 The following commands are valid (where the zone supports it)
 
-on
-off
-colorRGB (parameter [r,g,b])
-colorSet (parameter 0x00-0xFF)
-colorUp
-colorDown
-brightnessSet (parameter 0x00-0x64)
-brightnessUp
-brightnessDown
-saturationSet (parameter 0x00-0x64)
-saturationUp
-saturationDown
-link
-unlink
+* on
+* off
+* colorRGB (parameter [r,g,b])
+* colorSet (parameter 0x00-0xFF)
+* colorUp
+* colorDown
+* brightnessSet (parameter 0x00-0x64)
+* brightnessUp
+* brightnessDown
+* saturationSet (parameter 0x00-0x64)
+* saturationUp
+* saturationDown
+* link
+* unlink
