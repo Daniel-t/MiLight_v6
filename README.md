@@ -4,7 +4,7 @@ This is a library for controlling MiLight/LimitlessLed/AppLamp/etc lights connec
 
 ## Usage
 
-
+~~~
 var mb=require('./milight.js');
 
 mb.initiate(BRIDGE_IP,BRIDGE_PORT);
@@ -26,7 +26,7 @@ mb.sendCmd(z1.colorSet(0x20));
 //Method 2
 z1.command("on")
 z1.command("colorSet",0x20)
-
+~~~
 
 ## Commands
 
