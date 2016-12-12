@@ -18,14 +18,16 @@ var z1=mb.zoneCtlRGBWFactory(0x01);
 //control the second RGBWW zone
 var z2=mb.zoneCtlRGBWWFactory(0x02);
 
+//wait for the initialization to be done
+setTimeout(function(){
+  //Method 1
+  mb.sendCmd(z1.on());
+  mb.sendCmd(z1.colorSet(0x20));
 
-//Method 1
-mb.sendCmd(z1.on());
-mb.sendCmd(z1.colorSet(0x20));
-
-//Method 2
-z1.command("on")
-z1.command("colorSet",0x20)
+  //Method 2
+  z1.command("on")
+  z1.command("colorSet",0x20)
+}, 100)
 ~~~
 
 ## Commands
