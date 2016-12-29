@@ -23,7 +23,7 @@ var CMDS={
 };
 var socket;
 
-var zoneCtlRGBWFactory=function(zoneID){
+var zoneCtlRGBWWFactory=function(zoneID){
   var color=0x7A;
 	var brightness=0x32;
   var saturation=0x32;
@@ -126,7 +126,7 @@ sendCmd(elem)})
   }
 }
 
-var zoneCtlRGBWWFactory=function(zoneID){
+var zoneCtlRGBWFactory=function(zoneID){
   var color=0x7A;
 	var brightness=0x32;
   //var saturation=0x32;
